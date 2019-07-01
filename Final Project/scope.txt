@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/29666689/in-data-insert-script-how-to-put-parent-records-id-in-child-record
+
+
+https://stackoverflow.com/questions/8320838/stored-procedure-delete-records-using-user-input-from-parent-and-child-table

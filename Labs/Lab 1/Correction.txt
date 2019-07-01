@@ -1,0 +1,5 @@
+You have the required entities and the required relationships. There are however more relationships than needed.
+
+Customer and User Accounts can be related with just one PK/FK pair using the CustomerName or LoginName. It only matters which entity is created first since the parent record must exist before the child record. Having both actually prevents either record from being added to either table.
+
+The Customer to CustomerAddress relationship is correct. You don't need the PurchasedID relating to Product Inventory as it's already linked by the ProductID which should have been a one-to-many relationship as should the CustomerID between Customers and Purchased, but is a one-to-one on your ERD.
